@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="top-div">
+            Friendly Fish or whatever
+        </div>
+        
+        <div class="text1">
+            <p>stuff I made:</p>
+        </div>
+
+        <div class="projects-div">
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="project-image"></div>
+                <div class="project-text">
+                    <p>description</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/MasterAli2">
+            <img src="https://github.com/fluidicon.png" alt="Github" height="50">
+        </a>
+        <a href="https://thunderstore.io/c/lethal-company/p/MasterAli2/">
+            <img src="https://thunderstore.io/static/icon.ffafeeaa3ecf.png" alt="Github" height="50">
+        </a>
+    </footer>
+
+    <script>
+        // Function to generate a random RGB color
+        function getRandomColor() {
+            const r = Math.floor(Math.random() * 256); // Random red value (0-255)
+            const g = Math.floor(Math.random() * 256); // Random green value (0-255)
+            const b = Math.floor(Math.random() * 256); // Random blue value (0-255)
+            return `rgb(${r}, ${g}, ${b})`; // Return RGB color string
+        }
+
+        // Get all elements with the class "random-color"
+        const colorElements = document.querySelectorAll('.project-image');
+
+        // Loop through each element and assign a unique random color
+        colorElements.forEach(element => {
+            element.style.backgroundColor = getRandomColor();
+        });
+    </script>
+</body>
+</html>
