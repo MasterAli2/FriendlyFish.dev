@@ -1,0 +1,20 @@
+{
+    "projects":
+    [
+     {
+        "name":"Game Mods",
+        "description":"Collection of mods I made",
+        "link":"/projects/GameMods/"
+     },
+     {
+        "name":"Example1",
+        "description":"Example description",
+        "link":"/projects/GameMods/"
+     },
+     {
+        "name":"Example2",
+        "description":"Example description2",
+        "link":"/projects/GameMods/"
+     }
+    ]
+}

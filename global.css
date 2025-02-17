@@ -1,0 +1,52 @@
+:root {
+    --background-color: #121212;
+    --text-color: gray;
+
+    --div-background-color: #202020;
+    --border-color: white;
+
+}
+
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+footer {
+    background-color: var(--div-background-color);
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+    padding-top: 50px;
+
+    padding: 50px;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#header{
+    height: 400px;
+    width: 97.5%;
+    background-color: var(--div-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 auto;
+    border-radius: var(--border-radius); /* Rounded corners */
+}
