@@ -3,7 +3,6 @@
 :root {
     
     --gap: 50px;
-    --border-radius: 15px; /* Added border-radius variable */
     --grid-item-width: 700px
 }
 

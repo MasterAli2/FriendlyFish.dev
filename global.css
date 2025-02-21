@@ -4,6 +4,8 @@
 
     --div-background-color: #202020;
     --border-color: white;
+    --border-radius: 15px; /* Added border-radius variable */
+
 
 }
 
