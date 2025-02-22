@@ -39,12 +39,14 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 
-    animation: fadeIn 1s ease-in-out;
+    
 
     border: none;
 
 
 }
+
+
 
 .mod-box .mod-img{
     height: 96px;
@@ -104,11 +106,16 @@
 /* #region Animations */
 
 .mod-box:hover{
-    transform: scale(1.05);
+    transform: scale(1.05) translateY(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
+.mod-box.fade-in {
+    visibility: visible; /* Make visible */
+    animation: fadeIn 1s ease-in-out;
 
+    
+}
 
 /* #endregion */
 
