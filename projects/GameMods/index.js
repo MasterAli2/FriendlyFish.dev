@@ -94,4 +94,3 @@ function onLoad() {
 
 
 }
-alert("You lost the game");
