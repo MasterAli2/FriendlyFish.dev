@@ -8,8 +8,9 @@ function genMods() {
             for (let i = 0; i < data.mods.length; i++) {
                 setTimeout(() => {
                     // Create a new mod element
-                    const modBox = document.createElement("div");
+                    const modBox = document.createElement("button");
                     modBox.classList.add("mod-box");
+                    modBox.setAttribute("onclick", "OnModClick(this);")
                     modBox.innerHTML = `
                         <img class="mod-img" src="${data.mods[i].img}">
                         
@@ -45,4 +46,14 @@ function genMods() {
             }
         })
         .catch(error => console.error('Error fetching mods:', error));
+        
+}
+
+
+/**
+ * @param {HTMLElement} mod Some XMLHttpRequest
+ */
+function OnModClick(mod){
+
+    
 }

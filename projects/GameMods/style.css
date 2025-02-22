@@ -41,6 +41,8 @@
 
     animation: fadeIn 1s ease-in-out;
 
+    border: none;
+
 
 }
 
@@ -64,6 +66,8 @@
     justify-content: flex-start; /* Align items to the top */
     align-items: flex-start; /* Align items to the left */
     text-align: left; /* Align text to the left within each item */
+
+    color: var(--text-color);
 
 }
 
