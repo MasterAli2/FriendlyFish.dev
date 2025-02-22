@@ -9,7 +9,7 @@ function SetupFooter(id)
         <img src="https://github.com/fluidicon.png" alt="Github" height="50">
     </a>
     <a href="https://thunderstore.io/c/lethal-company/p/MasterAli2/" target="_blank" class="linkcon">
-        <img src="https://thunderstore.io/static/icon.ffafeeaa3ecf.png" alt="Github" height="50">
+        <img src="https://thunderstore.io/static/icon.ffafeeaa3ecf.png" alt="Thunderstore" height="50">
     </a>
     `;
     }
