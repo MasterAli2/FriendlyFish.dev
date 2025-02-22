@@ -39,7 +39,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     opacity: 0; /* Start invisible */
-    animation: fadeIn 1.5s ease-in-out forwards; /* 0.5s delay */
+    animation: fadeIn 1.5s ease-in-out;
 
 
 }
