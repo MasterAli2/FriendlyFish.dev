@@ -5,10 +5,10 @@ function SetupFooter(id)
     if (footer != null)
     {
         footer.innerHTML += `
-    <a href="https://github.com/MasterAli2">
-        <img src="https://github.com/fluidicon.png" alt="Github" height="50" target="_blank">
+    <a href="https://github.com/MasterAli2" target="_blank" class="linkcon">
+        <img src="https://github.com/fluidicon.png" alt="Github" height="50">
     </a>
-    <a href="https://thunderstore.io/c/lethal-company/p/MasterAli2/" target="_blank">
+    <a href="https://thunderstore.io/c/lethal-company/p/MasterAli2/" target="_blank" class="linkcon">
         <img src="https://thunderstore.io/static/icon.ffafeeaa3ecf.png" alt="Github" height="50">
     </a>
     `;

@@ -1,0 +1,110 @@
+@import url(global.css);
+
+
+#shit {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin: 65px auto 50px;
+    border-radius: var(--border-radius); /* Rounded corners */
+    min-height: 300px; /* Set a height for the container */
+
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Align items to the top */
+    align-items: center; /* Align items to the left */
+    text-align: center; /* Align text to the left within each item */
+}
+
+.mod-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--div-background-color);
+
+    width: 100%;
+
+    min-height: 111px;
+    max-height: none;
+
+    border-radius: var(--border-radius); /* Rounded corners */
+
+    margin: 17px auto;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 1.5s ease-in-out forwards; /* 0.5s delay */
+
+
+}
+
+.mod-box .mod-img{
+    height: 96px;
+    margin: auto 8px;
+
+    border-radius: var(--border-radius); /* Rounded corners */
+    border: 1px solid rgba(var(--border-color), calc(1/3)); 
+
+}
+
+
+/* #region Content*/
+.mod-box .c{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left within each item */
+
+}
+
+.mod-title{
+
+    font-size: 26px;
+    margin-bottom: 0;
+
+
+    
+}
+.mod-desc{
+    font-size: 15px;
+}
+
+/* #endregion  */
+
+.links{
+    display: flex;
+    justify-content: flex-end; /* Changed from 'right' to 'flex-end' */
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.links .linkcon img {
+
+    max-height: 72px;
+    min-height: none;
+}
+
+
+/* #region Animations */
+
+.mod-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* #endregion */
+

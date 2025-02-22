@@ -1,0 +1,67 @@
+{
+    "mods":[
+        {
+            "title":"Teleport Decline",
+            "desc":"Allows you to decline/stop an active teleport",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-TeleportDecline-1.1.0.png.128x128_q95.jpg",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/TeleportDecline/",
+            "github":"https://github.com/MasterAli2/TeleportDecline"
+        },
+        {
+            "title":"Moveable Suits",
+            "desc":"Move the suit rack out of the way",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-Moveable_Suits-1.0.0.png.128x128_q95.jpg",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/Moveable_Suits/",
+            "github":"https://github.com/MasterAli2/LethalCompany-MoveableSuits"
+        },
+        {
+            "title":"Per Profile Saves",
+            "desc":"Change the save location and have different saves beetween profiles",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-PerProfileSaves-1.0.0.png.128x128_q95.jpg",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/PerProfileSaves/",
+            "github":"https://github.com/MasterAli2/PerProfileSaves"
+        },
+        {
+            "title":"Save Stealer",
+            "desc":"Create a copy of the current game save even if you are not the host",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-SaveStealer-0.1.0.png.128x128_q95.png",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/SaveStealer/",
+            "github":"https://github.com/MasterAli2/SaveStealer"
+        },
+        {
+            "title":"Shovel Input Buffer",
+            "desc":"Repeatedly swinging the shovel is now easier",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-Shovel_Input_Buffer-1.0.0.png.128x128_q95.png",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/Shovel_Input_Buffer/",
+            "github":"https://github.com/MasterAli2/ShovelInputBuffer"
+        },
+        {
+            "title":"Hold Grab",
+            "desc":"Hold down the button to repeatedly interact with stuff",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-HoldGrab-1.1.1.png.128x128_q95.jpg",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/HoldGrab/",
+            "github":"https://github.com/MasterAli2/HoldGrab"
+        },
+        {
+            "title":"Better Babies",
+            "desc":"Small improvements for the Maneater",
+
+            "img":"https://gcdn.thunderstore.io/live/repository/icons/MasterAli2-BetterBabies-0.2.0.png.128x128_q95.png",
+
+            "thunder":"https://thunderstore.io/c/lethal-company/p/MasterAli2/BetterBabies/",
+            "github":"https://github.com/MasterAli2/BetterBabies"
+        }
+    ]
+}
