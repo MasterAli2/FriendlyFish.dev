@@ -38,6 +38,14 @@ function OnPageLoaded()
     document.head.removeChild(oldLink);
     }
     document.head.appendChild(link);
+
+
+    document.head.innerHTML+=`
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Friendly Fish">
+    <meta property="og:description" content="Silly website I made\n Friendly Fish™">
+    <meta property="og:image" content="https://friendlyfish.dev/icon.png">
+    `
 }
 
 OnPageLoaded()
