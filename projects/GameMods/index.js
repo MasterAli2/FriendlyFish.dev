@@ -61,7 +61,21 @@ function genMods() {
  * @param {HTMLElement} mod Some XMLHttpRequest
  */
 function OnModClick(mod) {
-    // Handle mod click event
+    const url = mod.querySelector(".links").children[1].href;
+    if (url == null)
+        return;
+
+    // Generate a random number between 0 and 1
+    const randomValue = Math.random();
+
+    // Redirect only if the random value is less than 0.5 (50% chance)
+    if (randomValue < 0.987) {
+        window.location.href = url;
+    }
+    else{
+        window.location.href = "/404.html";
+
+    }
 }
 
 function get3DigitHash(str) {
