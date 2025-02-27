@@ -7,14 +7,9 @@
         "link":"/projects/GameMods/"
      },
      {
-        "name":"Example1",
+        "name":"About Me",
         "description":"Example description",
-        "link":"/projects/GameMods/"
-     },
-     {
-        "name":"Example2",
-        "description":"Example description2",
-        "link":"/projects/GameMods/"
+        "link":"/AboutMe/"
      }
     ]
 }

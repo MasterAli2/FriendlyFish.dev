@@ -1,0 +1,12 @@
+#text1 {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 65px auto 50px;
+
+    height: 500px;
+}
