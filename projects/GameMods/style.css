@@ -107,7 +107,6 @@
 
 .mod-box:hover{
     transform: scale(1.05) translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 
 }
@@ -115,17 +114,6 @@
     visibility: visible; /* Make visible */
     animation: fadeIn 1s ease-in-out;
   
-}
-
-.Sel-12{
-    transform: scale(1.1);
-    background-color: black;
-    border: 1px solid white;
-}
-.Sel-12:hover{
-    transform: scale(1.2);
-    background-color: black;
-    border: 2px solid white;
 }
 
 /* #endregion */

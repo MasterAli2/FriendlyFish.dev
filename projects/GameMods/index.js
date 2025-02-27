@@ -12,8 +12,6 @@ function genMods() {
                 const modBox = document.createElement("button");
 
                 modBox.classList.add("mod-box");
-                modBox.id = get3DigitHash(data.mods[i].thunder) +1
-
 
                 modBox.setAttribute("onclick", "OnModClick(this);");
                 modBox.style.visibility = "hidden"; // Hide the element initially
@@ -76,35 +74,4 @@ function OnModClick(mod) {
         window.location.href = "/404.html";
 
     }
-}
-
-function get3DigitHash(str) {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        const char = str.charCodeAt(i);
-        hash = (hash << 5) - hash + char;
-        hash |= 0; // Convert to 32-bit integer
-    }
-    // Ensure the hash is positive and 3 digits long
-    return Math.abs(hash) % 10000; // Modulo 10000 ensures 4 digits (0-9999)
-}
-
-
-
-function onLoad() {
-
-    const fragment = window.location.hash; // Returns "#section1"
-    const elementId = fragment.substring(1); // Remove the '#' to get "section1"
-    const elemelon = document.getElementById(elementId); // Get the element by ID
-    
-    console.log(fragment); // Logs "#section1"
-    console.log(elementId); // Logs "section1"
-    console.log(elemelon); // Logs the element with ID "section1"
-
-    if (elemelon) {
-        elemelon.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        elemelon.classList.add("Sel-12")
-    } 
-
-
 }
