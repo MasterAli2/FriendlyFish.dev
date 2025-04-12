@@ -4,12 +4,15 @@
      {
         "name":"Game Mods",
         "description":"Collection of mods I made",
-        "link":"/projects/GameMods/"
+        "link":"/projects/GameMods/",
+        "img":"yes"
+
      },
      {
         "name":"About Me",
         "description":"Example description",
-        "link":"/AboutMe/"
+        "link":"/AboutMe/",
+        "img":"yes"
      }
     ]
 }

@@ -6,17 +6,27 @@ function generateProjectsGrid() {
     .then(data => {
       const projectsContainer = document.getElementById("projects-container");
       for (let i = 0; i < data.projects.length; i++) {
-        projectsContainer.innerHTML += `
+        new1 = `
         <a href="${data.projects[i].link}">
           <div class="grid-item">
-              <img class="project-image" src="${data.projects[i].link}icon.png">
+              <div style="background-color: var(--div-background-color);">
+                  
+        `;
+        if (data.projects[i].img != "none") {
+          new1 += `
+          <img class="project-image" src="${data.projects[i].link}icon.png">
+          `;          
+        }
+
+        new1 +=`</div>
               <div class="project-text">
                   <h1>${data.projects[i].name}</h1>
                   <p>${data.projects[i].description}</p>
               </div>
           </div>
-        </a>
-        `;
+        </a>`;
+
+        projectsContainer.innerHTML += new1;
       }
     })
     .then(data =>{
