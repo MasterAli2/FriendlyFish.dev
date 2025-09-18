@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+
+    <script src="/global.js"></script>
+    <script src="index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <p>Thunder Store Stats</p>
+    </div>
+
+    <p id="text1" class="center">Nothing Here yet...</p>
+    
+    <h2 class="center">Track New Package:</h2>
+
+    <p class="center" id="track_message" hidden></p>
+
+    <form class="center" id="track_form">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+        
+        <label for="community">Community:</label>
+        <input type="text" id="community" name="community" required><br><br>
+        
+        <input type="submit" value="Send">
+
+        <script>track_form();</script>
+    </form>
+    
+
+    <h2 class="center">View Metrics Graph:</h2>
+
+    <p class="center" id="graph_message" hidden></p>
+     <form class="center" id="graph_form">
+        <label for="package">Full Name:</label>
+        <input type="text" id="package" name="package" required><br><br>
+        
+        <label for="community">Community:</label>
+        <input type="text" id="community" name="community" required><br><br>
+
+        <select name="time">
+            <option value="all">All Time</option>
+            <option value="week">Past Week</option>
+            <option value="month">Past 30 Days</option>
+        </select>
+        
+        <input type="submit" value="Send">
+    </form>
+    
+
+    <div class="chart-container">
+        <canvas id="myLineChart"></canvas>
+    </div>
+    
+    <h3 class="center" id="text-stats">
+        Total Downloads: N/A 
+
+        <br><br>
+        
+        Total Ratings: N/A
+
+        <br><br>
+        
+        Download Place: N/A
+    </h3>
+
+    
+    <footer id="footer">
+    </footer>
+</body>
+</html>

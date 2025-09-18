@@ -1,0 +1,69 @@
+#text1 {
+    width: 75%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    height: 300px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#track_form {
+    margin-bottom: 75px;
+}
+
+#track_form input {
+    margin-right: 10px;
+}
+
+#graph_form input {
+    margin-right: 10px;
+}
+
+#graph_form select {
+    margin-right: 10px;
+}
+
+#track_message[hidden] {
+    display: none !important;
+}
+
+#track_message[data-type="error"] {
+    color: red;
+}
+
+#track_message[data-type="success"] {
+    color: lime;
+}
+
+#graph_message[hidden] {
+    display: none !important;
+}
+
+#graph_message[data-type="error"] {
+    color: red;
+}
+
+#graph_message[data-type="success"] {
+    color: lime;
+}
+
+#myLineChart {
+    max-width: 100%;
+    max-height: 400px;
+    width: 600px;
+    height: 400px;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}

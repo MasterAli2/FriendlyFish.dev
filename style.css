@@ -91,12 +91,7 @@
 
 
 
-footer a img:hover {
-    transform: scale(1.15);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius); /* Rounded corners */
-}
+
 
 a{
     text-decoration: none;
