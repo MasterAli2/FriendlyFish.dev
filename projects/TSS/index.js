@@ -139,7 +139,7 @@ function doGraph(data, datasets, annotations, startTime = null) {
                     }
                 },
                 y: {
-                    beginAtZero: true,
+                    beginAtZero: false,
                     title: { 
                         display: true, 
                         text: 'Value' 
