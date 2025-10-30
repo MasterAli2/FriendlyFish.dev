@@ -202,7 +202,24 @@ function graphForm() {
             doGraph(result["data"], datasets, result["anotations"], time);
 
             document.getElementById("text-stats").innerHTML = 
-            `Total Downloads: ${data.at(-1)["Downloads"]}<br><br>Total Ratings: ${data.at(-1)["Rating"]}<br><br>Download Place: ${data.at(-1)["Place"]}`;
+            `Total Downloads: ${data.at(-1)["Downloads"]}<br><br>Total Ratings: ${data.at(-1)["Rating"]}<br><br>Download Place: ${data.at(-1)["Place"]}         <br><br>
+        
+        Metrics/Entries: ${data.at(-1)["local_metrics_count"]}
+        
+            <br><br>
+            <br><br>
+        Global:
+        <br><br>
+        
+        Packages Tracked: ${data.at(-1)["global_packages_count"]}
+
+        <br><br>
+        
+        Global Metrics/Entries: ${data.at(-1)["global_metrics_count"]}
+        <br><br>
+        
+        DB Size: ${data.at(-1)["global_db_size"]}MB`
+
         } catch (err) {
             console.error("Error submitting form:", err);
         }
