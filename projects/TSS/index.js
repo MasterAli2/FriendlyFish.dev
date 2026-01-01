@@ -57,7 +57,7 @@ function doGraph(data, datasets, annotations, startTime = null) {
             borderColor: ds.color || 'rgba(75, 192, 192, 1)',
             backgroundColor: ds.color ? ds.color.replace('1)', '0.1)').replace('rgb', 'rgba') : 'rgba(75, 192, 192, 0.1)',
             fill: false,
-            tension: 0.5,
+            tension: 0.0,
             pointRadius: 0,
             pointHoverRadius: 6
         };
